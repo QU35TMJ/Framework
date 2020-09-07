@@ -1,0 +1,32 @@
+$primary: #0275d8;
+$success: #5cb85c;
+$info: #0070c9;
+$muted: #fafafa;
+$white: white;
+$black: black;
+$dark-grey: #313131;
+$grey: #ccc;
+$brown: rgb(218, 69, 15);
+
+.bg-dark-grey{
+    background-color:#313131 ;
+}
+.bg-grey{
+    background-color: #ccc;
+}
+.bg-white{
+    background-color: white;
+}
+
+.textcolor-white{
+    color: $white;
+}
+.textcolor-black{
+    color: $black;
+}
+.btn-primary{
+    background-color: $primary;
+}
+.btn-brown{
+    background-color: $brown;
+}

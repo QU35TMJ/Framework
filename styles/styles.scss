@@ -1,0 +1,64 @@
+@import "colors";
+@import "flex";
+@import "grid";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+//Font
+.font-display{
+    font-family: 'Playfair Display', serif;
+}
+//Padding
+.p-1{
+    padding: 1 rem;
+}
+.p-2{
+    padding: 2 rem;
+}
+.p-3{
+    padding: 3 rem;
+}
+.p-4{
+    padding: 4 rem;
+}
+.p-5{
+    padding: 5 rem;
+}
+//Margin
+.m-1{
+    padding: 1 rem;
+}
+.m-2{
+    padding: 2 rem;
+}
+.m-3{
+    padding: 3 rem;
+}
+.m-4{
+    padding: 5 rem;
+}
+.m-5{
+    padding: 6 rem;
+}
+
+//Body
+body{
+    background-color: $white;
+}
+.container{
+    width: 100%;
+}
+.container-fluid{
+    margin-left: -1 rem;
+    margin-right: -1 rem;
+}
+//Header
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+button, .btn{
+    padding: 10px;
+    border-radius: 5px;
+}
